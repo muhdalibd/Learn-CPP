@@ -1,5 +1,4 @@
-
-## 🚀 Deep Dive into Vectors in C++
+# 🚀 Deep Dive into Vectors in C++
 
 A `std::vector` in C++ is a sequence container representing an array that can change in size. Unlike static arrays in C (e.g., `int arr[5]`) where the memory allocation is strictly defined at compile-time, vectors are **dynamic arrays**. They abstract away low-level memory management, allowing you to grow or shrink the list at runtime without manually handling `malloc` or `realloc`.
 
