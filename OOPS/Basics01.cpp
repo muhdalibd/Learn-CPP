@@ -20,7 +20,7 @@ public:
 int main(){
     int x;
     // cout << &x << endl;
-    
+
     Student s1;
     // cout << &s1;
 
