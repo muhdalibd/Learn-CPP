@@ -1,1 +1,0 @@
-- [Swap kth element without swap() function](https://www.geeksforgeeks.org/problems/swap-kth-elements5500/1)
