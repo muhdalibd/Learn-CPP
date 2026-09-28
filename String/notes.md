@@ -39,11 +39,11 @@ using namespace std;
 - Null-terminated for compatibility with C-style strings
 
 ```cpp
-string s1;                    // Empty string
+string s1;                   // Empty string
 string s2 = "Hello";         // Initialize with C-string
 string s3("World");          // Constructor syntax
 string s4(s2);               // Copy constructor
-string s5(5, 'A');          // "AAAAA"
+string s5(5, 'A');           // "AAAAA"
 ```
 
 ---
@@ -52,11 +52,11 @@ string s5(5, 'A');          // "AAAAA"
 
 ```cpp
 // Different ways to initialize strings
-string str1;                          // Empty string
-string str2 = "Hello";                // Direct assignment
-string str3("Hello World", 5);        // First 5 chars: "Hello"
-string str4(str2, 2, 3);              // Substring from index 2, length 3: "llo"
-string str5(10, '*');                 // Repeat character: "**********"
+string str1;                           // Empty string
+string str2 = "Hello";                 // Direct assignment
+string str3("Hello World", 5);         // First 5 chars: "Hello"
+string str4(str2, 2, 3);               // Substring from index 2, length 3: "llo"
+string str5(10, '*');                  // Repeat character: "**********"
 string str6 = {'H', 'e', 'l', 'l', 'o'}; // Initializer list
 string str7(str6.begin(), str6.end());    // Iterator range
 ```
@@ -108,7 +108,7 @@ char last = str.back();      // 'o'
 
 // Modify characters
 str[0] = 'J';                // "Jello"
-str.at(1) = 'a';            // "Jallo"
+str.at(1) = 'a';             // "Jallo"
 ```
 
 ---
